@@ -2,10 +2,12 @@
 import Layout from '../layouts/Layout.astro';
 import H1 from '../components/H1.astro'
 import Main from '../components/Main.astro'
+import Button from '../components/Button';
 ---
 
 <Layout title="Rhythm Nation Blog">
 	<Main>
 		<H1 text='Rhythm Nation'/>
+		<Button client:load/>
 	</Main>
 </Layout>
